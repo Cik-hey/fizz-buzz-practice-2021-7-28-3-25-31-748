@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="tdd.fizzbuzz.FizzBuzzTest" tests="1" skipped="0" failures="1" errors="0" timestamp="2022-09-01T06:26:01" hostname="MNLITA12-W10" time="0.031">
+<testsuite name="tdd.fizzbuzz.FizzBuzzTest" tests="1" skipped="0" failures="1" errors="0" timestamp="2022-09-01T06:30:46" hostname="MNLITA12-W10" time="0.047">
   <properties/>
-  <testcase name="should_return_FizzWhizzBuzz_when_count_off_given_number_105()" classname="tdd.fizzbuzz.FizzBuzzTest" time="0.031">
-    <failure message="org.opentest4j.AssertionFailedError: expected: &lt;FizzWhizzBuzz&gt; but was: &lt;FizzBuzzWhizz&gt;" type="org.opentest4j.AssertionFailedError">org.opentest4j.AssertionFailedError: expected: &lt;FizzWhizzBuzz&gt; but was: &lt;FizzBuzzWhizz&gt;
+  <testcase name="should_return_BuzzWhizz_when_count_off_given_number_70()" classname="tdd.fizzbuzz.FizzBuzzTest" time="0.047">
+    <failure message="org.opentest4j.AssertionFailedError: expected: &lt;BuzzWhizz&gt; but was: &lt;Buzz&gt;" type="org.opentest4j.AssertionFailedError">org.opentest4j.AssertionFailedError: expected: &lt;BuzzWhizz&gt; but was: &lt;Buzz&gt;
 	at org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:55)
 	at org.junit.jupiter.api.AssertionUtils.failNotEqual(AssertionUtils.java:62)
 	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:182)
 	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:177)
 	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:1141)
-	at tdd.fizzbuzz.FizzBuzzTest.should_return_FizzWhizzBuzz_when_count_off_given_number_105(FizzBuzzTest.java:94)
+	at tdd.fizzbuzz.FizzBuzzTest.should_return_BuzzWhizz_when_count_off_given_number_70(FizzBuzzTest.java:106)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
