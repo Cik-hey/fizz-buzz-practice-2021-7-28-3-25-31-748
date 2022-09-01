@@ -7,7 +7,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 public class FizzBuzzTest {
 
     @Test
-    void should_return_1_when_when_count_off_given_number_1() {
+    void should_return_1_when_count_off_given_number_1() {
         //given
         FizzBuzz fizzBuzz = new FizzBuzz();
         String expected = "1";
@@ -20,7 +20,7 @@ public class FizzBuzzTest {
     }
 
     @Test
-    void should_return_fizz_when_when_count_off_given_number_3() {
+    void should_return_fizz_when_count_off_given_number_3() {
         //given
         FizzBuzz fizzBuzz = new FizzBuzz();
         String expected = "Fizz";
@@ -33,7 +33,7 @@ public class FizzBuzzTest {
     }
 
     @Test
-    void should_return_Buzz_when_when_count_off_given_number_5() {
+    void should_return_Buzz_when_count_off_given_number_5() {
         //given
         FizzBuzz fizzBuzz = new FizzBuzz();
         String expected = "Buzz";
@@ -45,13 +45,25 @@ public class FizzBuzzTest {
         assertEquals(expected, actual);
     }
     @Test
-    void should_return_Whizz_when_when_count_off_given_number_7() {
+    void should_return_Whizz_when_count_off_given_number_7() {
         //given
         FizzBuzz fizzBuzz = new FizzBuzz();
         String expected = "Whizz";
 
         //when
         String actual = fizzBuzz.countOff(7);
+
+        //then
+        assertEquals(expected, actual);
+    }
+    @Test
+    void should_return_FizzBuzz_when_count_off_given_number_15() {
+        //given
+        FizzBuzz fizzBuzz = new FizzBuzz();
+        String expected = "FizzBuzz";
+
+        //when
+        String actual = fizzBuzz.countOff(15);
 
         //then
         assertEquals(expected, actual);

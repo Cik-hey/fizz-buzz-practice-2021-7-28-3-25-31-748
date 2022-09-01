@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="tdd.fizzbuzz.FizzBuzzTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-09-01T06:16:20" hostname="MNLITA12-W10" time="0.029">
+<testsuite name="tdd.fizzbuzz.FizzBuzzTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-09-01T06:18:30" hostname="MNLITA12-W10" time="0.031">
   <properties/>
-  <testcase name="should_return_Whizz_when_when_count_off_given_number_7()" classname="tdd.fizzbuzz.FizzBuzzTest" time="0.029"/>
+  <testcase name="should_return_FizzBuzz_when_count_off_given_number_15()" classname="tdd.fizzbuzz.FizzBuzzTest" time="0.031"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
