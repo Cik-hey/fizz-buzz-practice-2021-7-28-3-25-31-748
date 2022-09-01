@@ -82,10 +82,10 @@ public class FizzBuzzTest {
     }
 
     @Test
-    void should_return_FizzWhizzBuzz_when_count_off_given_number_105() {
+    void should_return_FizzBuzzWhizz_when_count_off_given_number_105() {
         //given
         FizzBuzz fizzBuzz = new FizzBuzz();
-        String expected = "FizzWhizzBuzz";
+        String expected = "FizzBuzzWhizz";
 
         //when
         String actual = fizzBuzz.countOff(105);
