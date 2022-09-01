@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="tdd.fizzbuzz.FizzBuzzTest" tests="1" skipped="0" failures="1" errors="0" timestamp="2022-09-01T06:24:11" hostname="MNLITA12-W10" time="0.028">
+<testsuite name="tdd.fizzbuzz.FizzBuzzTest" tests="1" skipped="0" failures="1" errors="0" timestamp="2022-09-01T06:26:01" hostname="MNLITA12-W10" time="0.031">
   <properties/>
-  <testcase name="should_return_FizzWhizzBuzz_when_count_off_given_number_105()" classname="tdd.fizzbuzz.FizzBuzzTest" time="0.028">
-    <failure message="org.opentest4j.AssertionFailedError: expected: &lt;FizzWhizzBuzz&gt; but was: &lt;FizzBuzz&gt;" type="org.opentest4j.AssertionFailedError">org.opentest4j.AssertionFailedError: expected: &lt;FizzWhizzBuzz&gt; but was: &lt;FizzBuzz&gt;
+  <testcase name="should_return_FizzWhizzBuzz_when_count_off_given_number_105()" classname="tdd.fizzbuzz.FizzBuzzTest" time="0.031">
+    <failure message="org.opentest4j.AssertionFailedError: expected: &lt;FizzWhizzBuzz&gt; but was: &lt;FizzBuzzWhizz&gt;" type="org.opentest4j.AssertionFailedError">org.opentest4j.AssertionFailedError: expected: &lt;FizzWhizzBuzz&gt; but was: &lt;FizzBuzzWhizz&gt;
 	at org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:55)
 	at org.junit.jupiter.api.AssertionUtils.failNotEqual(AssertionUtils.java:62)
 	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:182)

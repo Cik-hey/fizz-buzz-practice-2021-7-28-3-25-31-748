@@ -2,6 +2,9 @@ package tdd.fizzbuzz;
 
 public class FizzBuzz {
     public String countOff(int order) {
+        if(order % 3 == 0 && order % 5 == 0 && order % 7 == 0){
+            return "FizzBuzzWhizz";
+        }
         if(order % 3 == 0 && order % 5 == 0){
             return "FizzBuzz";
         }
