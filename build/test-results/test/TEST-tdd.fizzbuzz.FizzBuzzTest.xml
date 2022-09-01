@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="tdd.fizzbuzz.FizzBuzzTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-09-01T05:26:56" hostname="MNLITA12-W10" time="0.03">
+  <properties/>
+  <testcase name="should_return_1_when_when_count_off_given_number_1()" classname="tdd.fizzbuzz.FizzBuzzTest" time="0.03"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
